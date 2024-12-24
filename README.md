@@ -7,17 +7,15 @@ Steps
 
 **1. Import Libraries and Load Datasets**
 Import Python Libraries
-
-# import libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
 
-# load messages dataset
+# Load messages dataset
 messages = pd.read_csv('messages.csv')
 
-# load categories dataset
+# Load categories dataset
 categories = pd.read_csv('categories.csv')
 
 **2. Merge Datasets**
